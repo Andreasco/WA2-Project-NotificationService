@@ -33,7 +33,9 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-mail")
 
     // DB DRIVER
-    runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
+    // runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
+    runtimeOnly("mysql:mysql-connector-java")
+
 
     // EXTRA
     developmentOnly("org.springframework.boot:spring-boot-devtools")
